@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+h1{
+    background-color: cadetblue;
+    color: azure;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.birds-container p{
+padding: 20px;
+background-color: rgb(191, 255, 71);
+color: yellowgreen;
+font-size: x-large;
+}
+.birds-container img{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20px;
+    margin: auto;
+    animation: bird  7s  ease 1s infinite alternate;
+}
+@keyframes bird{
+from{
+    transform: scale(.6);
+}
+to{
+    transform: scale(1.1);
+}
+}
+
+@media (max-width: 768px){
+    .birds-container img{
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+    }
+}
