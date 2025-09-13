@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    display:grid;
+     grid-template-columns: 400px 400px 400px;
 }
 h1{
     background-color: cadetblue;
@@ -42,4 +44,8 @@ to{
     height: 90px;
     padding-bottom: 10px;
     }
+body{
+    display:flex;
+    flex-direction:column;
+}
 }
